@@ -1,4 +1,4 @@
-package pers.dxm.targetoffer.binarytree.BinaryTreeImage;
+package pers.dxm.targetoffer.binarytree.BinaryTreeSearch;
 
 import pers.dxm.targetoffer.binarytree.BinaryUtils.InitBinaryTree;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.TreeNode;

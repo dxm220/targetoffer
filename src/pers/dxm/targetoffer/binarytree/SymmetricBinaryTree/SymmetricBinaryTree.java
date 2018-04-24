@@ -1,6 +1,6 @@
 package pers.dxm.targetoffer.binarytree.SymmetricBinaryTree;
 
-import pers.dxm.targetoffer.binarytree.BinaryTreeImage.BinaryTreeImage;
+import pers.dxm.targetoffer.binarytree.BinaryTreeImage_19.BinaryTreeImage_19;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.InitBinaryTree;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.TreeNode;
 
@@ -11,7 +11,7 @@ import pers.dxm.targetoffer.binarytree.BinaryUtils.TreeNode;
  */
 public class SymmetricBinaryTree {
     public boolean isSymmetrical(TreeNode node) {
-        BinaryTreeImage binaryTreeImage = new BinaryTreeImage();
+        BinaryTreeImage_19 binaryTreeImage = new BinaryTreeImage_19();
         //这里需要重新构建一棵树传给image方法返回镜像树，不能直接将node作为参数直接传给image方法进行镜像转换（即不能在node本身上进行任何修改）
         //下面三行代码是将node复制给一个新的Treenode
         TreeNode treeNode = new TreeNode(node.getData(),null,null);

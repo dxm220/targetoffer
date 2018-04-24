@@ -1,6 +1,6 @@
 package pers.dxm.targetoffer.binarytree.SerializeBinaryTree;
 
-import pers.dxm.targetoffer.binarytree.BinaryTreeImage.SearchByRecursion;
+import pers.dxm.targetoffer.binarytree.BinaryTreeSearch.SearchByRecursion;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.InitBinaryTree;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.TreeNode;
 

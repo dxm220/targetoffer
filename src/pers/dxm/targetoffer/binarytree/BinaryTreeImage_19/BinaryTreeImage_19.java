@@ -1,5 +1,6 @@
-package pers.dxm.targetoffer.binarytree.BinaryTreeImage;
+package pers.dxm.targetoffer.binarytree.BinaryTreeImage_19;
 
+import pers.dxm.targetoffer.binarytree.BinaryTreeSearch.SearchByRecursion;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.InitBinaryTree;
 import pers.dxm.targetoffer.binarytree.BinaryUtils.TreeNode;
 
@@ -8,7 +9,7 @@ import pers.dxm.targetoffer.binarytree.BinaryUtils.TreeNode;
  * title：二叉树的镜像
  * viewpoint：左子节点和右子节点交换，依次递归执行到底
  */
-public class BinaryTreeImage {
+public class BinaryTreeImage_19 {
     public TreeNode image(TreeNode rootNode) {
         //二叉树左右变换位置操作
         TreeNode tmp = rootNode.getLeftNode();
@@ -29,7 +30,7 @@ public class BinaryTreeImage {
         SearchByRecursion searchByRecursion = new SearchByRecursion();
         System.out.print("初始时先序遍历:");
         searchByRecursion.firstSerach(treeNode);
-        BinaryTreeImage binaryTreeImage = new BinaryTreeImage();
+        BinaryTreeImage_19 binaryTreeImage = new BinaryTreeImage_19();
         TreeNode node = binaryTreeImage.image(treeNode);
         //将左右对调过的
         System.out.print("结束时先序遍历:");
